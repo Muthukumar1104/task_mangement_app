@@ -1,0 +1,28 @@
+@import "../Gloablvariables/variables";
+
+.navbar {
+  background-color: $primary-color;
+  .container-fluid {
+    .navbar-brand {
+      i {
+        color: #ffffff;
+        font-size: 25px;
+      }
+    }
+    button.navbar-toggler {
+      background-color: #ffffff;
+      padding: 2px 4px;
+    }
+    .collapse {
+      form {
+        .btn.btn-light {
+          color: $primary-color;
+        }
+        .btn.btn-outline-success {
+          border: none;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
